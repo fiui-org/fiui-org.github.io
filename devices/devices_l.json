@@ -1,0 +1,438 @@
+[
+  {
+    "manufacturer": "全部"
+  },
+  {
+    "manufacturer": "HTC",
+    "devices": {
+      "official": [
+        {
+          "name": "HTC One M9 国际版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1eSh4hMU",
+          "date": "2016.10.09",
+          "img": "img/phone/htc/htc-one-m9_L.png"
+        },
+        {
+          "name": "HTC One M7 国际版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1dE0SIKp",
+          "date": "2016.10.09",
+          "img": "img/phone/htc/htc_m7_L.png"
+        },
+        {
+          "name": "HTC One M7 Sprint版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1pLRnc2v",
+          "date": "2016.10.09",
+          "img": "img/phone/htc/htc_m7_L.png"
+        },
+        {
+          "name": "HTC One M7 Verizon版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1gfsrxqb",
+          "date": "2016.10.09",
+          "img": "img/phone/htc/htc_m7_L.png"
+        },
+        {
+          "name": "HTC One M8 单卡版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1nv9GiSD",
+          "date": "2016.10.09",
+          "img": "img/phone/htc/htc_m8_L.png"
+        },
+        {
+          "name": "HTC One M8d 双卡版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1eSby0Jw",
+          "date": "2016.10.09",
+          "img": "img/phone/htc/htc_m8_L.png"
+        },
+        {
+          "name": "HTC One Max T6",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1boPtvD9",
+          "date": "2016.10.09",
+          "img": "img/phone/htc/htc-one-max_L.png"
+        },
+        {
+          "name": "HTC One S(S4)",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1bE6bCE",
+          "date": "2016.10.09",
+          "img": "img/phone/htc/htc_ones_L.png"
+        }
+      ],
+      "thirdparty": [
+        {
+          "name": "HTC Desire 816w/d",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "https://pan.baidu.com/s/1i51aPhz",
+          "date": "2016.10.11",
+          "img": "img/phone/htc/htc_desire_816t_L.png",
+          "author": "136fei"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "LG",
+    "devices": {
+      "official": [
+        {
+          "name": "LG Nexus 5",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1jHEVF74",
+          "date": "2016.10.09",
+          "img": "img/phone/lg/google_nexus5_L.png"
+        },
+        {
+          "name": "LG G2 D802",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1jHZUzd0",
+          "date": "2016.10.09",
+          "img": "img/phone/lg/lg_g2_L.png"
+        },
+        {
+          "name": "LG G3 D855",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1jIBOg7c",
+          "date": "2016.10.09",
+          "img": "img/phone/lg/lg-g3_L.png"
+        },
+        {
+          "name": "LG Nexus 4",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1ckuexK",
+          "date": "2016.10.09",
+          "img": "img/phone/lg/google_nexus4_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "OnePlus",
+    "devices": {
+      "official": [
+        {
+          "name": "OnePlus 2",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1bpw3rn5",
+          "date": "2016.10.09",
+          "img": "img/phone/oneplus/oneplus2_L.png"
+        },
+        {
+          "name": "OnePlus One",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1jHAlYn0",
+          "date": "2016.10.09",
+          "img": "img/phone/oneplus/one_plus_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "小米",
+    "devices": {
+      "official": [
+        {
+          "name": "小米 Mi3 W/C",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1bZ4Jp0",
+          "date": "2016.10.09",
+          "img": "img/phone/xiaomi/mi3_L.png"
+        },
+        {
+          "name": "小米 Mi4 W/C/TD",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1bZ4Jp0",
+          "date": "2016.10.09",
+          "img": "img/phone/xiaomi/mi4_L.png"
+        },
+        {
+          "name": "红米2全机型/2A高配版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1nvdmfLR",
+          "date": "2016.10.09",
+          "img": "img/phone/xiaomi/hongmi_2_L.png"
+        }
+      ],
+      "thirdparty": [
+        {
+          "name": "小米 Mi3 TD版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1bp5qNh1",
+          "date": "2016.10.11",
+          "img": "img/phone/xiaomi/mi3_L.png",
+          "author": "乖奕虎"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "三星",
+    "devices": {
+      "official": [
+        {
+          "name": "三星 Galaxy NOTE3 N9005",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1i5mhIYD",
+          "date": "2016.10.09",
+          "img": "img/phone/samsung/note3_L.png"
+        },
+        {
+          "name": "三星 Galaxy S4 I9500",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1kV2sEvt",
+          "date": "2016.10.09",
+          "img": "img/phone/samsung/i9500_L.png"
+        },
+        {
+          "name": "三星 Galaxy S5 国际版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1mhU0DaK",
+          "date": "2016.10.09",
+          "img": "\timg/phone/samsung/S5_L.png"
+        },
+        {
+          "name": "三星 Galaxy S5 G9006/8V",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1pKF10b5",
+          "date": "2016.10.09",
+          "img": "\timg/phone/samsung/S5_L.png"
+        },
+        {
+          "name": "三星 Galaxy S5 G9006/8W",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1mijZIze",
+          "date": "2016.10.09",
+          "img": "\timg/phone/samsung/S5_L.png"
+        },
+        {
+          "name": "三星 Galaxy S5 国际双卡版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1pLJf223",
+          "date": "2016.10.09",
+          "img": "\timg/phone/samsung/S5_L.png"
+        },
+        {
+          "name": "三星 Galaxy NOTE4(trltexx)",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1jH4Mqay",
+          "date": "2016.10.09",
+          "img": "img/phone/samsung/note4_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "华为",
+    "devices": {
+      "official": [
+        {
+          "name": "华为 Ascend Mate2",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1qYCXKHQ",
+          "date": "2016.10.09",
+          "img": "\timg/phone/huawei/mate2_L.png"
+        }
+      ],
+      "thirdparty": [
+        {
+          "name": "华为 Honor 4/4X",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1eRAuhME",
+          "date": "2016.10.11",
+          "img": "img/phone/huawei/huawei_honour4_L.png",
+          "author": "折腾XXL"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "中兴",
+    "devices": {
+      "official": [
+        {
+          "name": "中兴 Z9Max(NX510J)",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1o7IlvAy",
+          "date": "2016.10.09",
+          "img": "img/phone/zte/Z9_max_L.png"
+        }
+      ],
+      "thirdparty": [
+        {
+          "name": "中兴 Z9mini(NX511J)",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1nvI3B5J",
+          "date": "2016.10.11",
+          "img": "img/phone/zte/Z9_max_L.png",
+          "author": "曦颜XY"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "SONY",
+    "devices": {
+      "official": [
+        {
+          "name": "索尼sony Z1 Compact",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1o8M5r8Q",
+          "date": "2016.10.09",
+          "img": "img/phone/sony/Sony_z1_Compact_L.png"
+        },
+        {
+          "name": "索尼sony Z1",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1o8z4GGE",
+          "date": "2016.10.09",
+          "img": "img/phone/sony/Sony_z1_L.png"
+        },
+        {
+          "name": "索尼sony Z2",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1nv6Yp2h",
+          "date": "2016.10.09",
+          "img": "img/phone/sony/sony_z2_L.png"
+        },
+        {
+          "name": "索尼sony Z3",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1pLlV3KJ",
+          "date": "2016.10.09",
+          "img": "img/phone/sony/Sony-Xperia-Z3_L.png"
+        },
+        {
+          "name": "索尼sony Z3 Dual",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1hrDDP68",
+          "date": "2016.10.09",
+          "img": "img/phone/sony/Sony-Xperia-Z3_L.png"
+        },
+        {
+          "name": "索尼sony Z3 Compact",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1miNpwwC",
+          "date": "2016.10.09",
+          "img": "img/phone/sony/Sony-Xperia-Z3_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "OPPO",
+    "devices": {
+      "official": [
+        {
+          "name": "OPPO Find 7",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1dERXepF",
+          "date": "2016.10.09",
+          "img": "img/phone/oppo/find_7_L.png"
+        },
+        {
+          "name": "OPPO Find 7s",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1pKAHGkr",
+          "date": "2016.10.09",
+          "img": "img/phone/oppo/find_7_L.png"
+        },
+        {
+          "name": "OPPO R7Plus 国际版",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1dETYS5F",
+          "date": "2016.10.09",
+          "img": "img/phone/oppo/oppo-r7-plus_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "ZUK",
+    "devices": {
+      "official": [
+        {
+          "name": "ZUK Z1",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1qYjlEzE",
+          "date": "2016.10.09",
+          "img": "img/phone/zuk/ZUK_Z1_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "酷派",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "酷派大神F2全网通(8675-A)",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1qY8odgo",
+          "date": "2016.10.25",
+          "img": "img/phone/coolpad/Coolpad_f2_L.png",
+          "author": "隐Assassin(宇文)"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "Smartfren",
+    "devices": {
+      "official": [
+        {
+          "name": "Smartfren Andromax Q",
+          "android_ver": "5.1.1",
+          "fiui_ver": "dev_1.0.0",
+          "url": "http://pan.baidu.com/s/1qXINm12",
+          "date": "2016.10.09",
+          "img": "img/phone/smartfren/Andromax_Q_L.png"
+        }
+      ]
+    }
+  }
+]

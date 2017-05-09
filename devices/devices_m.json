@@ -1,0 +1,488 @@
+[
+  {
+    "manufacturer": "全部"
+  },
+  {
+    "manufacturer": "OnePlus",
+    "devices": {
+      "official": [
+        {
+          "name": "OnePlus One",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1qYLLnQk",
+          "date": "2017.01.19",
+          "img": "img/phone/oneplus/one_plus_L.png"
+        },
+        {
+          "name": "OnePlus 2",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1c2oZIQO",
+          "date": "2017.01.19",
+          "img": "img/phone/oneplus/oneplus2_L.png"
+        },
+        {
+          "name": "OnePlus 3",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1pLx0H0R",
+          "date": "2017.01.19",
+          "img": "img/phone/oneplus/one_plus_3_L.png"
+        },
+        {
+          "name": "OnePlus X",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1i5vBdsT",
+          "date": "2017.01.19",
+          "img": "img/phone/oneplus/oneplusX_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "小米",
+    "devices": {
+      "official": [
+        {
+          "name": "小米 Mi3",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1eSEEcPs",
+          "date": "2017.01.19",
+          "img": "img/phone/xiaomi/mi3_L.png"
+        },
+        {
+          "name": "小米 Mi4",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1eSEEcPs",
+          "date": "2017.01.19",
+          "img": "img/phone/xiaomi/mi4_L.png"
+        },
+        {
+          "name": "小米 Mi5",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1kUF97Pd",
+          "date": "2017.01.19",
+          "img": "img/phone/xiaomi/mi5_L.png"
+        },
+        {
+          "name": "小米 HM2",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1nvwiRn7",
+          "date": "2017.01.19",
+          "img": "img/phone/xiaomi/hongmi_2_L.png"
+        },
+        {
+          "name": "小米 HM3",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1miDLTlY",
+          "date": "2017.01.19",
+          "img": "img/phone/xiaomi/hongmi_3_L.png"
+        },
+        {
+          "name": "小米 HM NOTE3",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1c1NVygS",
+          "date": "2017.01.19",
+          "img": "img/phone/xiaomi/hongmi_note3_L.png"
+        }
+      ],
+      "thirdparty": [
+        {
+          "name": "小米 MAX",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "https://pan.baidu.com/s/3c1TtJWW",
+          "date": "2017.03.08",
+          "img": "img/phone/xiaomi/mi-max.png",
+          "author": "HT大神"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "HTC",
+    "devices": {
+      "official": [
+        {
+          "name": "HTC Desire 816W/D",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1i4Q2XoD",
+          "date": "2017.01.19",
+          "img": "img/phone/htc/htc_desire_816t_L.png"
+        },
+        {
+          "name": "HTC One M7 国际版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1pL143NH",
+          "date": "2017.01.19",
+          "img": "img/phone/htc/htc_m7_L.png"
+        },
+        {
+          "name": "HTC One M7 Sprint版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1i55e5Vn",
+          "date": "2017.01.19",
+          "img": "img/phone/htc/htc_m7_L.png"
+        },
+        {
+          "name": "HTC One M7 Verizon版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1jHVkCNc",
+          "date": "2017.01.19",
+          "img": "img/phone/htc/htc_m7_L.png"
+        },
+        {
+          "name": "HTC One Max T6",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1miwQU0K",
+          "date": "2017.01.19",
+          "img": "img/phone/htc/htc-one-max_L.png"
+        },
+        {
+          "name": "HTC One M8 单卡版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1dFJzJWl",
+          "date": "2017.01.19",
+          "img": "img/phone/htc/htc_m8_L.png"
+        },
+        {
+          "name": "HTC One M8 双卡版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1o8c4cZK",
+          "date": "2017.01.19",
+          "img": "img/phone/htc/htc_m8_L.png"
+        },
+        {
+          "name": "HTC One M9",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1bRxn7S",
+          "date": "2017.01.20",
+          "img": "img/phone/htc/htc-one-m9_L.png"
+        },
+        {
+          "name": "HTC One A9",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1slQ2VbZ",
+          "date": "2017.01.19",
+          "img": "img/phone/htc/htc-one-a9_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "三星",
+    "devices": {
+      "official": [
+        {
+          "name": "三星 Galaxy S5 国际版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1bpiWdeJ",
+          "date": "2017.01.19",
+          "img": "img/phone/samsung/S5_L.png"
+        },
+        {
+          "name": "三星 Galaxy S5 国际双卡版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1jIE5VoE",
+          "date": "2017.01.19",
+          "img": "img/phone/samsung/S5_L.png"
+        },
+        {
+          "name": "三星 Galaxy S5 国行单卡版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1cGihUQ",
+          "date": "2017.01.19",
+          "img": "img/phone/samsung/S5_L.png"
+        },
+        {
+          "name": "三星 Galaxy S5 国行双卡版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1pLuISPl",
+          "date": "2017.01.19",
+          "img": "img/phone/samsung/S5_L.png"
+        },
+        {
+          "name": "三星 Galaxy S4 4G版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1hr6SnAW",
+          "date": "2017.01.19",
+          "img": "img/phone/samsung/i9500_L.png"
+        },
+        {
+          "name": "三星 Galaxy S3 (I9300)",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1i4LdqC1",
+          "date": "2017.01.19",
+          "img": "img/phone/samsung/i9300_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "ZUK",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "ZUK Z2",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.0.0",
+          "url": "https://pan.baidu.com/s/1pKUWf0Z",
+          "date": "2017.01.06",
+          "img": "img/phone/zuk/ZUK_Z2_L.png",
+          "author": "殇夜丶"
+        }
+      ],
+      "official": [
+        {
+          "name": "ZUK Z1",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1gf7Q0TX",
+          "date": "2017.01.20",
+          "img": "img/phone/zuk/ZUK_Z1_L.png"
+        },
+        {
+          "name": "ZUK Z2 高配版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1pLlV0MZ",
+          "date": "2017.01.20",
+          "img": "img/phone/zuk/ZUK_Z2_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "中兴",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "中兴 天机 7",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.0.0",
+          "url": "http://pan.baidu.com/s/1bphAnpl",
+          "date": "2017.01.09",
+          "img": "img/phone/zte/zte_tj7_L.png",
+          "author": "折腾XXL"
+        },
+        {
+          "name": "中兴 Z11(NX531J)",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1cb644u",
+          "date": "2017.01.22",
+          "img": "img/phone/zte/zte_z11_L.png",
+          "author": "曦颜XY"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "华为",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "华为 Honor 4/4X",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.0.0",
+          "url": "http://pan.baidu.com/s/1boFjUhD",
+          "date": "2017.01.09",
+          "img": "img/phone/huawei/huawei_honour4_L.png",
+          "author": "136fei"
+        }
+      ],
+      "official": [
+        {
+          "name": "华为 Honor 5X",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1o8wMM5W",
+          "date": "2017.01.20",
+          "img": "img/phone/huawei/huawei_honour5x.png"
+        },
+        {
+          "name": "华为 Ascend Mate 2 海外版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "https://pan.baidu.com/s/1bplDRSN",
+          "date": "2017.01.20",
+          "img": "img/phone/huawei/mate2_L.png"
+        },
+        {
+          "name": "华为 Honor 4/4X",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1geVWIZ5",
+          "date": "2017.01.20",
+          "img": "img/phone/huawei/huawei_honour4_L.png"
+        },
+        {
+          "name": "华为 Honor 4X 电信版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1o8PTcaI",
+          "date": "2017.01.20",
+          "img": "img/phone/huawei/huawei_honour4_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "谷歌",
+    "devices": {
+      "official": [
+        {
+          "name": "Google Nexus 6",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1kV2Y6VH",
+          "date": "2017.01.20",
+          "img": "img/phone/moto/google_nexus6.png"
+        },
+        {
+          "name": "Google Nexus 5",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1eSd0uh8",
+          "date": "2017.01.20",
+          "img": "img/phone/lg/google_nexus5_L.png"
+        },
+        {
+          "name": "Google Nexus 4",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1o8wgQ74",
+          "date": "2017.01.20",
+          "img": "img/phone/lg/google_nexus4_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "OPPO",
+    "devices": {
+      "official": [
+        {
+          "name": "OPPO Find 7",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1gfp96d9",
+          "date": "2017.01.20",
+          "img": "img/phone/oppo/find_7_L.png"
+        },
+        {
+          "name": "OPPO Find 7s",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1o78bSnS",
+          "date": "2017.01.20",
+          "img": "img/phone/oppo/find_7_L.png"
+        },
+        {
+          "name": "OPPO R7Plus 国际版",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1o7MVaaA",
+          "date": "2017.01.20",
+          "img": "img/phone/oppo/oppo-r7-plus_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "LG",
+    "devices": {
+      "official": [
+        {
+          "name": "LG G4",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1o8djYdk",
+          "date": "2017.01.20",
+          "img": "img/phone/lg/lg_g4_L.png"
+        },
+        {
+          "name": "LG G3",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1bpkXWNt",
+          "date": "2017.01.20",
+          "img": "img/phone/lg/lg-g3_L.png"
+        },
+        {
+          "name": "LG G2",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1qXJ3iXY",
+          "date": "2017.01.20",
+          "img": "img/phone/lg/lg_g2_L.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "华硕",
+    "devices": {
+      "official": [
+        {
+          "name": "ASUS Zenfone 2 1080P",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1c248Lag",
+          "date": "2017.01.20",
+          "img": "img/phone/asus/asus_zenfone2.png"
+        },
+        {
+          "name": "ASUS Zenfone 2 720P",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1gfQhsWz",
+          "date": "2017.01.20",
+          "img": "img/phone/asus/asus_zenfone2.png"
+        },
+        {
+          "name": "ASUS Zenfone 2 Laser 1080P",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1dFd2pSt",
+          "date": "2017.01.20",
+          "img": "img/phone/asus/asus_zenfone2.png"
+        },
+        {
+          "name": "ASUS Zenfone 2 Laser 720P",
+          "android_ver": "6.0.1",
+          "fiui_ver": "dev_2.1.0",
+          "url": "http://pan.baidu.com/s/1slCpMI5",
+          "date": "2017.01.20",
+          "img": "img/phone/asus/asus_zenfone2.png"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "其他"
+  }
+]

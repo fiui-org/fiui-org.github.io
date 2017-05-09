@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIUI官方网站 国内首个民间第三方团队制作的安卓UI，给用户带来高效、简洁、美观的ROM，免费下载就来FIUI</title>
+    <meta name="keywords" content="FIUI,FIUI官网,fiui下载,fiui团队,fiuiorg,风雅,风雅rom,UI,安卓UI,ATX团队,安智,Android,一加手机,小米手机,移植ROM,固件,OS,刷机,ROOT" />
+    <meta name="description" content="FIUI官方网站，FIUI是国内首个民间第三方团队制作的安卓UI，FIUI是基于Android4.4源码二次修改编译制作，是一款深度订制以及优化的Android第三方系统，高度贴合了中国用户的使用需求，是一款高效、简洁、美观的ROM。" />
+    <meta name="author" content="FIUI">
+    <link href="/res/css/fiui.css" rel="stylesheet">
+    <link href="/res/css/style.min.css" rel="stylesheet">
+    <script language="javascript" type="text/javascript">
+        window.moveTo(-4,-4);
+        window.resizeTo(screen.availWidth,screen.availHeight);
+    </script>
+    <script src="/res/js/jquery-1.7.min.js"></script>
+    <script src="/res/js/jquery.easing.1.3.js"></script>
+    <script src="/res/js/jquery.easing.compatibility.js"></script>
+    <script src="/res/layer/layer.min.js"></script>
+    <script src="/res/js/contact.js"></script>
+    <script src="/res/js/main.js"></script>
+    <script src="/res/js/nav-default.js"></script>
+    <script src="http://cdn.bootcss.com/angular.js/1.6.4/angular.min.js"></script>
+</head>
+
+<body>
+<div id="tbox">
+    <img id="gotop" src="/res/img/gotop.png">
+</div>
+<div class="fiui-nav">
+    <div class="fiui-nav-main">
+        <ul>
+            <li class="fiui-nav-left"><img class="fiui-nav-logo" src="/res/img/logo.svg"></li>
+            <li class="fiui-nav-right"><a href="/about.html">关于我们</a></li>
+            <li class="fiui-nav-right" id="active"><a href="/download.html">下载</a><hr></li>
+            <li class="fiui-nav-right"><a href="/timeline.html">更新日志</a></li>
+            <li class="fiui-nav-right"><a href="/">主页</a></li>
+        </ul>
+    </div>
+</div>
+
+<!------------------------------------------------>
+
+<style>
+    .fuck-fiui-nav{
+        margin-left: 26px;
+    }
+    .fuck-fiui-nav a{
+        color: #ffffff;
+        font-size: 16px;
+        height: 42px;
+        line-height: 42px;
+        width: 96px;
+        text-align: center;
+        border-radius: 4px;
+        background-color: #505050;
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 24px;
+    }
+    .fuck-fiui-nav a.selected{
+        background-color: #03A9F4;
+    }
+    .fuck-fiui-nav a:hover{
+        background-color: #808080;
+    }
+    .fuck-fiui-nav a.selected:hover{
+        background-color: #03A9F4;
+    }
+</style>
+
+
+<div class="fiui-main" ng-app="myApp" ng-controller="myCtrl">
+    <div class="fuck-fiui-nav">
+        <a ng-repeat="j in jsons" ng-class="{true: 'selected', false: ''}[json===j.json]"  ng-click="load(j.json)" >{{j.title}}</a>
+    </div>
+    <ul class="fiui-download-class-container">
+
+        <li class="fiui-download-class" ng-repeat="x in devices" id="{{x.manufacturer===manufacturer?'active':''}}" >
+            <a ng-click="loadManufacturer(x.manufacturer)">{{x.manufacturer}}</a>
+        </li>
+    </ul>
+    <hr>
+
+    <script type="text/ng-template" id="official-tpl">
+        <div class="device-item" ng-repeat="d in official" on-finish-render>
+            <div class="mask">
+                <img src="/res/{{d.img}}">
+                <p align="center" class="device"><nobr>{{d.name}}</nobr></p>
+                <p align="center" class="ver">FIUI版本:{{d.fiui_ver}}</p>
+            </div>
+            <div class="back">
+                <p align="center">Android版本:{{d.android_ver}}</p>
+                <p align="center">作者:FIUI官方适配</p>
+                <p align="center">更新日期:{{d.date}}</p>
+                <div class="download">
+                    <a href="{{d.url}}" target="_blank">下载</a>
+                </div>
+            </div>
+        </div>
+    </script>
+    <p ng-if="official.length>0" class="divider1">官方适配机型</p>
+    <div class="devices" ng-include="'official-tpl'">
+
+    </div>
+
+
+    <script type="text/ng-template" id="thirdparty-tpl">
+        <div class="device-item" ng-repeat="d in thirdparty" on-finish-render>
+            <div class="mask">
+                <img src="/res/{{d.img}}">
+                <p align="center" class="device"><nobr>{{d.name}}</nobr></p>
+                <p align="center" class="ver">FIUI版本:{{d.fiui_ver}}</p>
+            </div>
+            <div class="back">
+                <p align="center">Android版本:{{d.android_ver}}</p>
+                <p align="center">作者:{{d.author}}</p>
+                <p align="center">更新日期:{{d.date}}</p>
+                <div class="download">
+                    <a href="{{d.url}}" target="_blank">下载</a>
+                </div>
+            </div>
+        </div>
+    </script>
+    <p ng-if="thirdparty.length>0" class="divider2">第三方移植适配机型</p>
+    <div class="devices" ng-include="'thirdparty-tpl'">
+
+    </div>
+
+    <p ng-if="official.length<=0 && thirdparty.length<=0" class="divider1">
+        哎哟~~未知的厂商~~~FIUI将会尽快支持该手机厂家的机型~~我们在努力哦~~~<br />
+        请点击页面下方联系我们，提出您的宝贵建议~~
+    </p>
+    <br />
+    <br />
+    <br />
+</div>
+
+
+
+
+<script>
+    var isOnScroll1 = [];
+    var isOnScroll2 = [];
+    function init() {
+        $(".mask").fadeIn(800);
+        var i = 0;
+        $('.device-item').each(function () {
+
+            var index = i;
+            isOnScroll1[index]=false;
+            isOnScroll2[index]=false;
+            $(this).mouseenter(function (e) {
+                //03A9F4
+                if(isOnScroll1[index] || isOnScroll2[index]){
+                    return;
+                }
+                isOnScroll1[index] = true;
+                $(this).find(".mask").css('box-shadow', '0px 4px 12px 0px rgba(3,169,244,0.3)');
+                $(this).find(".mask").animate({'margin-top': '-148px'}, 300, 'easeInOut', function(){
+                    isOnScroll1[index] = false;
+                });
+            }).mouseleave(function (e) {
+                if(isOnScroll2[index]){
+                    return;
+                }
+                isOnScroll2[index] = true;
+                $(this).find(".mask").css('box-shadow', '');
+                $(this).find(".mask").animate({'margin-top': '0px'}, 300, 'easeInOut', function(){
+                    isOnScroll2[index] = false;
+                });
+            });
+            i++;
+        });
+    };
+</script>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope, $http) {
+        $scope.jsons = [
+            {
+                "json": "devices/devices_m.json",
+                "title": "FIUI M"
+            },
+            {
+                "json": "devices/devices_l.json",
+                "title": "FIUI L"
+            },
+            {
+                "json": "devices/devices_kk.json",
+                "title": "FIUI KK"
+            }
+        ];
+        $scope.json = undefined;
+        $scope.manufacturer = undefined;
+
+        $scope.load = function (json) {
+            $scope.json = json;
+            $http.get($scope.json+"?t="+Date.parse(new Date())).then(function successCallback(response) {
+                $scope.devices = response.data;
+                $scope.loadManufacturer("全部");
+            });
+        };
+
+        $scope.loadManufacturer = function (manufacturer) {
+            $scope.manufacturer = manufacturer;
+            var devices = $scope.devices;
+            if(devices===undefined) return;
+            $scope.official = [];
+            $scope.thirdparty = [];
+            for(var i=1; i<devices.length; i++){
+                if(devices[i].manufacturer===$scope.manufacturer || $scope.manufacturer==="全部") {
+                    try{
+                        if (devices[i].devices.official)
+                            $scope.official = $scope.official.concat(devices[i].devices.official);
+
+                        if (devices[i].devices.thirdparty)
+                            $scope.thirdparty = $scope.thirdparty.concat(devices[i].devices.thirdparty);
+                    }catch(e){}
+                }
+            }
+        };
+
+
+        $scope.$on('ngRepeatFinished', function( ngRepeatFinishedEvent ) {
+            init();
+        });
+
+
+        $scope.load($scope.jsons[0].json);
+    });
+    app.directive('onFinishRender', function ($timeout) {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attr) {
+                if (scope.$last === true) {
+                    $timeout(function () {
+                        scope.$emit('ngRepeatFinished');
+                    });
+                }
+            }
+        }
+    });
+</script>
+
+
+
+<!------------------------------------------------>
+
+<footer>
+    <div class="fiui-footer">
+        <ul class="items">
+            <li class="item">
+                <p><a href="http://weibo.com/fiui" target="_blank"><img src="/res/img/sina.png">@FIUI_org</a></p>
+            </li>
+            <li class="item" id="contact">
+                <p><a><img src="/res/img/contact.png">联系我们</a></p>
+            </li>
+            <li class="item">
+                <p><a href="/about.html"><img src="/res/img/about.png">关于我们</a></p>
+            </li>
+        </ul>
+        <p class="fiui-copyright">Copyright (c) 2014-2017 <a href="/" target="_blank">FIUI.org</a></p>
+        <p class="beian">京ICP备15001751号</p>
+        <p class="request-info">
+            <nobr>
+                <font style="color: rgba(255,255,255,.4);">友情链接: </font>
+                <a href="http://bbs.wisenjoy.com/" target="_blank">硬糖社区</a>
+                <a href="http://www.wuta-camera.com" target="_blank">无他官网</a>
+                <a href="http://www.wuta-camera.com" target="_blank">无他相机</a>
+            </nobr>
+        </p>
+        <p class="request-info" id="online"></p>
+        <p class="tongji">
+            <script type="text/javascript">
+                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3199bad8cd2de7c3d5f0843c14254be0' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+            <script type="text/javascript">
+                var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_1253282397'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1253282397%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+        </p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIUI官方网站 国内首个民间第三方团队制作的安卓UI，给用户带来高效、简洁、美观的ROM，免费下载就来FIUI</title>
+    <meta name="keywords" content="FIUI,FIUI官网,fiui下载,fiui团队,fiuiorg,风雅,风雅rom,UI,安卓UI,ATX团队,安智,Android,一加手机,小米手机,移植ROM,固件,OS,刷机,ROOT" />
+    <meta name="description" content="FIUI官方网站，FIUI是国内首个民间第三方团队制作的安卓UI，FIUI是基于Android4.4源码二次修改编译制作，是一款深度订制以及优化的Android第三方系统，高度贴合了中国用户的使用需求，是一款高效、简洁、美观的ROM。" />
+    <meta name="author" content="FIUI">
+    <link href="/res/css/fiui.css" rel="stylesheet">
+    <link href="/res/css/style.min.css" rel="stylesheet">
+    <script language="javascript" type="text/javascript">
+        window.moveTo(-4,-4);
+        window.resizeTo(screen.availWidth,screen.availHeight);
+    </script>
+    <script src="/res/js/jquery-1.7.min.js"></script>
+    <script src="/res/js/jquery.easing.1.3.js"></script>
+    <script src="/res/js/jquery.easing.compatibility.js"></script>
+    <script src="/res/layer/layer.min.js"></script>
+    <script src="/res/js/contact.js"></script>
+    <script src="/res/js/main.js"></script>
+    <script src="/res/js/nav-default.js"></script>
+    <script src="/res/js/yaml.min.js"></script>
+    <script src="http://cdn.bootcss.com/angular.js/1.6.4/angular.min.js"></script>
+</head>
+
+<body>
+<div id="tbox">
+    <img id="gotop" src="/res/img/gotop.png">
+</div>
+<div class="fiui-nav">
+    <div class="fiui-nav-main">
+        <ul>
+            <li class="fiui-nav-left"><img class="fiui-nav-logo" src="/res/img/logo.svg"></li>
+            <li class="fiui-nav-right"><a href="/about.html">关于我们</a></li>
+            <li class="fiui-nav-right"><a href="/download.html">下载</a></li>
+            <li class="fiui-nav-right" id="active"><a href="/timeline.html">更新日志</a><hr></li>
+            <li class="fiui-nav-right"><a href="/">主页</a></li>
+        </ul>
+    </div>
+</div>
+
+<!------------------------------------------------>
+
+<div class="fiui-main" ng-app="myApp" ng-controller="myCtrl">
+    <div class="update-log-content">
+        <div class="wrapper timeline-list">
+            <meta charset="utf-8">
+            <hr class="line-right">
+            <div class="main">
+                <h1 class="title">时光轴</h1>
+
+                <div class="month" ng-repeat="month in data" on-finish-render>
+                    <h2><a href="#"><nobr>{{month.month}}</nobr><i></i></a></h2>
+                    <div class="list" style="height: 1184px;">
+                        <ul style="position: absolute;">
+                            <li class="cls" ng-repeat="version in month.versions">
+                                <p class="date">{{version.date}}</p>
+                                <p class="intro">{{version.intro}}</p>
+                                <p class="version">{{version.version}}</p>
+                                <div class="more">
+                                    <p ng-repeat="line in version.more.split('\n')" ng-if="line.trim()!==''">● {{line}}</p><br>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function init() {
+        var tmp = $(".main .month");
+        for(i=0;i<tmp.length;i++){
+            if(i!=0)
+                $(".main .month").eq(i).toggleClass("close");
+        }
+        $(".main .month .list").each(function (e, t) {
+            var n = $(t), r = n.find("ul");
+            n.height(r.outerHeight()), r.css("position", "absolute")
+        }), $(".main .month>h2>a").click(function (e) {
+            e.preventDefault(), $(this).parents(".month").toggleClass("close")
+        });
+    }
+
+</script>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope, $http) {
+        $http.get("timeline/timeline.yaml?t="+Date.parse(new Date())).then(function successCallback(response) {
+            $scope.data = YAML.parse(response.data);
+            console.log($scope.data);
+        });
+        $scope.$on('ngRepeatFinished', function( ngRepeatFinishedEvent ) {
+            console.log("aaaa");
+            init();
+        });
+    });
+    app.directive('onFinishRender', function ($timeout) {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attr) {
+                if (scope.$last === true) {
+                    $timeout(function () {
+                        scope.$emit('ngRepeatFinished');
+                    });
+                }
+            }
+        }
+    });
+</script>
+
+<!------------------------------------------------>
+
+<footer>
+    <div class="fiui-footer">
+        <ul class="items">
+            <li class="item">
+                <p><a href="http://weibo.com/fiui" target="_blank"><img src="/res/img/sina.png">@FIUI_org</a></p>
+            </li>
+            <li class="item" id="contact">
+                <p><a><img src="/res/img/contact.png">联系我们</a></p>
+            </li>
+            <li class="item">
+                <p><a href="/about.html"><img src="/res/img/about.png">关于我们</a></p>
+            </li>
+        </ul>
+        <p class="fiui-copyright">Copyright (c) 2014-2017 <a href="/" target="_blank">FIUI.org</a></p>
+        <p class="beian">京ICP备15001751号</p>
+        <p class="request-info">
+            <nobr>
+                <font style="color: rgba(255,255,255,.4);">友情链接: </font>
+                <a href="http://bbs.wisenjoy.com/" target="_blank">硬糖社区</a>
+                <a href="http://www.wuta-camera.com" target="_blank">无他官网</a>
+                <a href="http://www.wuta-camera.com" target="_blank">无他相机</a>
+            </nobr>
+        </p>
+        <p class="request-info" id="online"></p>
+        <p class="tongji">
+            <script type="text/javascript">
+                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3199bad8cd2de7c3d5f0843c14254be0' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+            <script type="text/javascript">
+                var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_1253282397'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1253282397%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+        </p>
+    </div>
+</footer>
+</body>
+</html>

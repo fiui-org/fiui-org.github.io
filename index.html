@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIUI官方网站 国内首个民间第三方团队制作的安卓UI，给用户带来高效、简洁、美观的ROM，免费下载就来FIUI</title>
+    <meta name="keywords" content="FIUI,FIUI官网,fiui下载,fiui团队,fiuiorg,风雅,风雅rom,UI,安卓UI,ATX团队,安智,Android,一加手机,小米手机,移植ROM,固件,OS,刷机,ROOT" />
+    <meta name="description" content="FIUI官方网站，FIUI是国内首个民间第三方团队制作的安卓UI，FIUI是基于Android4.4源码二次修改编译制作，是一款深度订制以及优化的Android第三方系统，高度贴合了中国用户的使用需求，是一款高效、简洁、美观的ROM。" />
+    <meta name="author" content="FIUI">
+    <link href="/res/css/fiui.css" rel="stylesheet">
+    <link href="/res/css/style.min.css" rel="stylesheet">
+    <script language="javascript" type="text/javascript">
+        window.moveTo(-4,-4);
+        window.resizeTo(screen.availWidth,screen.availHeight);
+    </script>
+    <script src="/res/js/jquery-1.7.min.js"></script>
+    <script src="/res/layer/layer.min.js"></script>
+    <script src="/res/js/contact.js"></script>
+    <script src="/res/js/main.js"></script>
+    <script src="/res/js/nav-index.js"></script>
+</head>
+
+<body>
+<div id="tbox">
+    <img id="gotop" src="/res/img/gotop.png">
+</div>
+<div class="fiui-nav">
+    <div class="fiui-nav-main">
+        <ul>
+            <li class="fiui-nav-left"><img class="fiui-nav-logo" src="/res/img/logo.svg"></li>
+            <li class="fiui-nav-right"><a href="/about.html">关于我们</a></li>
+            <li class="fiui-nav-right"><a href="/download.html">下载</a></li>
+            <li class="fiui-nav-right"><a href="/timeline.html">更新日志</a></li>
+            <li class="fiui-nav-right" id="active"><a href="/">主页</a><hr></li>
+        </ul>
+    </div>
+</div>
+
+<div class="fiui-index-header">
+    <img id="index-head-background" src="/res/img/index_header.jpg">
+    <img id="index-head-logo" src="/res/img/index_header_logo.svg">
+    <ul>
+        <li><a style="margin-right: 48px;"  class="active" href="/">主页</a></li>
+        <li><a style="margin-right: 112px;"  href="/timeline.html">更新日志</a></li>
+        <li><a style="margin-left: 112px;"  href="/download.html">下载</a></li>
+        <li><a style="margin-left: 48px;   "href="/about.html">关于我们</a></li>
+    </ul>
+</div>
+
+<!------------------------------------------------>
+
+<div class="fiui-main">
+</div>
+<div class="index-main">
+    <img class="info-img" src="/res/img/info_1.jpg">
+    <img class="info-img" src="/res/img/info_2.jpg">
+    <img class="info-img" src="/res/img/info_3.jpg">
+    <img class="info-img" src="/res/img/info_4.jpg">
+    <img class="info-img" src="/res/img/info_5.jpg">
+    <div class="index-title-group">
+        <div class="index-title-item" style="filter:alpha(opacity=100);-moz-opacity:1;opacity:1;" onclick="index_title_onclick(0,'/res/img/intro/phone.jpg')">
+            <img src="/res/img/intro/phone_title.png">
+        </div>
+        <div class="index-title-item" onclick="index_title_onclick(1,'/res/img/intro/cal.jpg')">
+            <img src="/res/img/intro/cal_title.png">
+        </div>
+        <div class="index-title-item" onclick="index_title_onclick(2,'/res/img/intro/clock.jpg')">
+            <img src="/res/img/intro/clock_title.png">
+        </div>
+        <div class="index-title-item" onclick="index_title_onclick(3,'/res/img/intro/rec.jpg')">
+            <img src="/res/img/intro/rec_title.png">
+        </div>
+    </div>
+    <div class="index-content">
+        <img src="/res/img/intro/phone.jpg">
+    </div>
+</div>
+<script>
+    var showIntroIndex = 0;
+    $(document).ready(function(){
+        $('.index-title-item').each(function(){
+            $(this).mouseenter(function (e) {
+                $(this).click();
+            });
+        });
+    });
+    function index_title_onclick(index,content_img){
+        showIntroIndex=index;
+        for(i=0;i<$(".index-title-item").length;i++){
+            $(".index-title-item").eq(i).css({"filter":"alpha(opacity=30)","-moz-opacity":"0.3","opacity":"0.3"});
+        }
+        $(".index-title-item").eq(index).css({"filter":"alpha(opacity=100)","-moz-opacity":"1","opacity":"1"});
+        $(".index-content").eq(0).find("img").eq(0).fadeOut(300,function(){
+            $(".index-content")[0].innerHTML="<img src='"+content_img+"' >";
+            $(".index-content").eq(0).find("img").eq(0).fadeIn(300);
+        });
+    }
+    setInterval(function(){
+        showIntroIndex+=1;
+        if(showIntroIndex>=$(".index-title-item").length){
+            showIntroIndex=0;
+        }
+        $(".index-title-item")[showIntroIndex].click();
+    },5000);
+</script>
+
+<!------------------------------------------------>
+
+<footer>
+    <div class="fiui-footer">
+        <ul class="items">
+            <li class="item">
+                <p><a href="http://weibo.com/fiui" target="_blank"><img src="/res/img/sina.png">@FIUI_org</a></p>
+            </li>
+            <li class="item" id="contact">
+                <p><a><img src="/res/img/contact.png">联系我们</a></p>
+            </li>
+            <li class="item">
+                <p><a href="/about.html"><img src="/res/img/about.png">关于我们</a></p>
+            </li>
+        </ul>
+        <p class="fiui-copyright">Copyright (c) 2014-2017 <a href="/" target="_blank">FIUI.org</a></p>
+        <p class="beian">京ICP备15001751号</p>
+        <p class="request-info">
+            <nobr>
+                <font style="color: rgba(255,255,255,.4);">友情链接: </font>
+                <a href="http://bbs.wisenjoy.com/" target="_blank">硬糖社区</a>
+                <a href="http://www.wuta-camera.com" target="_blank">无他官网</a>
+                <a href="http://www.wuta-camera.com" target="_blank">无他相机</a>
+            </nobr>
+        </p>
+        <p class="request-info" id="online"></p>
+        <p class="tongji">
+            <script type="text/javascript">
+                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F3199bad8cd2de7c3d5f0843c14254be0' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+            <script type="text/javascript">
+                var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cspan id='cnzz_stat_icon_1253282397'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1253282397%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+        </p>
+    </div>
+</footer>
+</body>
+</html>

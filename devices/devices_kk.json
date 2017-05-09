@@ -1,0 +1,881 @@
+[
+  {
+    "manufacturer": "全部"
+  },
+  {
+    "manufacturer": "HTC",
+    "devices": {
+      "official": [
+        {
+          "name": "HTC M8/M8w",
+          "img": "img/phone/htc/htc_m8.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587941-1-1.html"
+        }
+      ],
+      "thirdparty": [
+        {
+          "name": "HTC One M7",
+          "img": "img/phone/htc/htc_m7.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587934-1-1.html"
+        },
+        {
+          "name": "HTC One M7 Verizon版",
+          "img": "img/phone/htc/htc_m7.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587940-1-1.html"
+        },
+        {
+          "name": "HTC One M7 Sprint版",
+          "img": "img/phone/htc/htc_m7.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587938-1-1.html"
+        },
+        {
+          "name": "HTC One M7 htl22日版",
+          "img": "img/phone/htc/htc_m7.png",
+          "fiui_ver": "beta 2.32.0",
+          "android_ver": "4.4.4",
+          "author": "haohao3344",
+          "date": "2015.08.12",
+          "url": "http://bbs.zhiyoo.com/thread-9721625-1-1.html"
+        },
+        {
+          "name": "HTC Butterfly 蝴蝶",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.14.0",
+          "url": "http://bbs.anzhi.com/thread-9599575-1-1.html",
+          "date": "2015.04.01",
+          "img": "img/phone/htc/htc_butterfly.png",
+          "author": "速度123"
+        },
+        {
+          "name": "HTC Desire 816W",
+          "img": "img/phone/htc/htc_desire_816w.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587968-1-1.html"
+        },
+        {
+          "name": "HTC Desire 816T",
+          "img": "img/phone/htc/htc_desire_816t.png",
+          "fiui_ver": "beta 2.32.0",
+          "android_ver": "4.4.4",
+          "author": "haohao3344",
+          "date": "2015.08.12",
+          "url": "http://bbs.zhiyoo.com/thread-9721446-1-1.html"
+        },
+        {
+          "name": "HTC Desire 816D",
+          "img": "img/phone/htc/htc_desire_816t.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587969-1-1.html"
+        },
+        {
+          "name": "HTC One X",
+          "img": "img/phone/htc/htc_onex.png",
+          "fiui_ver": "beta 2.32.0",
+          "android_ver": "4.4.4",
+          "author": "haohao3344",
+          "date": "2015.08.12",
+          "url": "http://bbs.zhiyoo.com/thread-9721620-1-1.html"
+        },
+        {
+          "name": "HTC One S4",
+          "img": "img/phone/htc/htc_ones.png",
+          "fiui_ver": "beta 2.32.0",
+          "android_ver": "4.4.4",
+          "author": "xxos",
+          "date": "2015.08.10",
+          "url": "http://bbs.zhiyoo.com/thread-9720385-1-1.html"
+        },
+        {
+          "name": "HTC Sensation XE G14/G18",
+          "img": "img/phone/htc/htc_g18.png",
+          "fiui_ver": "beta 2.33.0",
+          "android_ver": "4.4.4",
+          "author": "xxos",
+          "date": "2015.09.01",
+          "url": "http://bbs.zhiyoo.com/thread-9735458-1-1.html"
+        },
+        {
+          "name": "HTC One S3",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.31.0",
+          "url": "http://bbs.zhiyoo.com/thread-9686548-1-1.html",
+          "date": "2015.08.03",
+          "img": "img/phone/htc/htc_ones.png",
+          "author": "xxos"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "三星",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "三星Galaxy S2 (I9100)",
+          "img": "img/phone/samsung/i9100.png",
+          "fiui_ver": "beta 2.22.0",
+          "android_ver": "4.4.4",
+          "author": "折腾AndroidX",
+          "date": "2015.05.31",
+          "url": "http://bbs.zhiyoo.com/thread-9648713-1-1.html"
+        },
+        {
+          "name": "三星Galaxy S2高通版(I9100G)",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.33.0",
+          "url": "http://bbs.zhiyoo.com/thread-9736128-1-1.html",
+          "date": "2015.09.06",
+          "img": "img/phone/samsung/i9100.png",
+          "author": "折腾AndroidX"
+        },
+        {
+          "name": "三星Galaxy S3 (I9300)",
+          "img": "img/phone/samsung/i9300.png",
+          "fiui_ver": "beta 2.15.1",
+          "android_ver": "4.4.4",
+          "author": "折腾AndroidX",
+          "date": "2015.04.06",
+          "url": "http://bbs.anzhi.com/thread-9604593-1-1.html"
+        },
+        {
+          "name": "三星Galaxy S3 Neo (I9300I)",
+          "img": "img/phone/samsung/i9300.png",
+          "fiui_ver": "beta 2.33.0",
+          "android_ver": "4.4.4",
+          "author": "24k纯叼",
+          "date": "2015.09.05",
+          "url": "http://bbs.zhiyoo.com/thread-9736877-1-1.html"
+        },
+        {
+          "name": "三星Galaxy S4 (I9500)",
+          "img": "img/phone/samsung/i9500.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587954-1-1.html"
+        },
+        {
+          "name": "三星Galaxy S4 jflte系列",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.18.0",
+          "url": "http://bbs.zhiyoo.com/thread-9631453-1-1.html",
+          "date": "2015.05.06",
+          "img": "img/phone/samsung/i9500.png",
+          "author": "折腾AndroidX"
+        },
+        {
+          "name": "三星Galaxy Note2 N7100",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.15.1",
+          "url": "http://bbs.anzhi.com/thread-9604326-1-1.html",
+          "date": "2015.04.06",
+          "img": "img/phone/samsung/n7100.png",
+          "author": "折腾AndroidX"
+        },
+        {
+          "name": "三星Galaxy Note I9220",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.25.1",
+          "url": "http://bbs.zhiyoo.com/thread-9661124-1-1.html",
+          "date": "2015.06.20",
+          "img": "img/phone/samsung/I9220.png",
+          "author": "宜心"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "华为",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "华为荣耀6",
+          "img": "img/phone/huawei/huawei_honour6.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587955-1-1.html"
+        },
+        {
+          "name": "华为荣耀畅玩版4/4x",
+          "img": "img/phone/huawei/huawei_honour4.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587970-1-1.html"
+        },
+        {
+          "name": "华为 Ascend mate7",
+          "img": "img/phone/huawei/ascend_mate7.png",
+          "fiui_ver": "beta 2.32.0",
+          "android_ver": "4.4.4",
+          "author": "Ry09iu",
+          "date": "2015.08.10",
+          "url": "http://bbs.zhiyoo.com/thread-9720480-1-1.html"
+        },
+        {
+          "name": "华为荣耀3c(H30-T00)",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.33.0",
+          "url": "http://bbs.zhiyoo.com/thread-9735833-1-1.html",
+          "date": "2015.09.06",
+          "img": "img/phone/huawei/huawei_3c.png",
+          "author": "安凌"
+        },
+        {
+          "name": "华为荣耀3c畅玩版",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.33.0",
+          "url": "http://bbs.zhiyoo.com/thread-9735310-1-1.html",
+          "date": "2015.09.01",
+          "img": "img/phone/huawei/huawei_3c_changwan.png",
+          "author": "安凌"
+        },
+        {
+          "name": "华为 C8813",
+          "img": "img/phone/huawei/huawei_c8813q.png",
+          "fiui_ver": "beta 2.4.0",
+          "android_ver": "4.4.4",
+          "author": "花妈妈",
+          "date": "2015.01.15",
+          "url": "http://bbs.anzhi.com/thread-9514154-1-1.html"
+        },
+        {
+          "name": "华为 C8813Q",
+          "img": "img/phone/huawei/huawei_c8813q.png",
+          "fiui_ver": "beta 2.32.0",
+          "android_ver": "4.4.4",
+          "author": "花妈妈",
+          "date": "2015.08.26",
+          "url": "http://bbs.zhiyoo.com/thread-9730995-1-1.html"
+        },
+        {
+          "name": "华为 C8815",
+          "img": "img/phone/huawei/huawei_c8815.png",
+          "fiui_ver": "beta 2.23.0",
+          "android_ver": "4.4.4",
+          "author": "花妈妈",
+          "date": "2015.06.07",
+          "url": "http://bbs.zhiyoo.com/thread-9653207-1-1.html"
+        },
+        {
+          "name": "华为 G520",
+          "img": "img/phone/huawei/huawei_g520.png",
+          "fiui_ver": "beta 2.1.0",
+          "android_ver": "4.4.4",
+          "author": "幻听风雨",
+          "date": "2014.12.15",
+          "url": "http://bbs.anzhi.com/thread-9453009-1-1.html"
+        },
+        {
+          "name": "华为 G525",
+          "img": "img/phone/huawei/huawei_g525.png",
+          "fiui_ver": "beta 2.1.0",
+          "android_ver": "4.4.4",
+          "author": "幻听风雨",
+          "date": "2014.12.15",
+          "url": "http://bbs.anzhi.com/thread-9453012-1-1.html"
+        },
+        {
+          "name": "华为 D1(XL)",
+          "img": "img/phone/huawei/huawei_d1.png",
+          "fiui_ver": "beta 2.1.0",
+          "android_ver": "4.4.4",
+          "author": "幻听风雨",
+          "date": "2014.12.15",
+          "url": "http://bbs.anzhi.com/thread-9453004-1-1.html"
+        },
+        {
+          "name": "华为 P1(XL)",
+          "img": "img/phone/huawei/huawei_p1.png",
+          "fiui_ver": "beta 2.1.0",
+          "android_ver": "4.4.4",
+          "author": "幻听风雨",
+          "date": "2014.12.15",
+          "url": "http://bbs.anzhi.com/thread-9453000-1-1.html"
+        },
+        {
+          "name": "华为荣耀3c",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.21.0",
+          "url": "http://bbs.zhiyoo.com/thread-9646344-1-1.html",
+          "date": "2015.05.28",
+          "img": "img/phone/huawei/huawei_3c.png",
+          "author": "安凌"
+        },
+        {
+          "name": "华为 U8825d",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.27.0",
+          "url": "http://bbs.zhiyoo.com/thread-9671835-1-1.html",
+          "date": "2015.07.09",
+          "img": "img/phone/huawei/huawei_u8825d.png",
+          "author": "公子笑"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "中兴",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "中兴 Nubia Z5S",
+          "img": "img/phone/zte/zte_z5s.png",
+          "fiui_ver": "beta 2.20.0",
+          "android_ver": "4.4.4",
+          "author": "dgtl198312",
+          "date": "2015.05.18",
+          "url": "http://bbs.zhiyoo.com/thread-9638692-1-1.html"
+        },
+        {
+          "name": "中兴 Nubia Z5S mini",
+          "img": "img/phone/zte/zte_z5smini.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587953-1-1.html"
+        },
+        {
+          "name": "中兴 Nubia Z7 mini",
+          "img": "img/phone/zte/zte_z7mini.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587948-1-1.html"
+        },
+        {
+          "name": "中兴 Nubia Z7 max",
+          "img": "img/phone/zte/zte_z7max.png",
+          "fiui_ver": "beta 2.24.0",
+          "android_ver": "4.4.4",
+          "author": "PC一零零八六",
+          "date": "2015.06.16",
+          "url": "http://bbs.zhiyoo.com/thread-9657250-1-1.html"
+        },
+        {
+          "name": "中兴 V5 (单卡)",
+          "img": "img/phone/zte/zte_v5.png",
+          "fiui_ver": "beta 2.31.0",
+          "android_ver": "4.4.4",
+          "author": "永恒中的一瞬_",
+          "date": "2015.08.02",
+          "url": "http://bbs.zhiyoo.com/thread-9685573-1-1.html"
+        },
+        {
+          "name": "中兴 V5 (双卡)",
+          "img": "img/phone/zte/zte_v5.png",
+          "fiui_ver": "beta 2.23.0",
+          "android_ver": "4.4.4",
+          "author": "cwz1996",
+          "date": "2015.06.06",
+          "url": "http://bbs.zhiyoo.com/thread-9652719-1-1.html"
+        },
+        {
+          "name": "中兴 V5s",
+          "img": "img/phone/zte/zte_v5.png",
+          "fiui_ver": "beta 2.33.0",
+          "android_ver": "4.4.4",
+          "author": "ax0817",
+          "date": "2015.09.01",
+          "url": "http://bbs.zhiyoo.com/thread-9735101-1-1.html"
+        },
+        {
+          "name": "中兴 V5 max",
+          "img": "img/phone/zte/zte_v5max.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587946-1-1.html"
+        },
+        {
+          "name": "中兴 星星2号 G720t",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.23.0",
+          "url": "http://bbs.zhiyoo.com/thread-9652901-1-1.html",
+          "date": "2015.06.06",
+          "img": "img/phone/zte/zte_G720t.png",
+          "author": "cao_jf"
+        },
+        {
+          "name": "中兴 天机2 Grand S2",
+          "android_ver": "4.4.4",
+          "fiui_ver": "history 1.0",
+          "url": "http://bbs.zhiyoo.com/thread-12590728-1-1.html",
+          "date": "2016.6.13",
+          "img": "img/phone/zte/zte_grand_s2.png",
+          "author": "折腾AndroidX"
+        },
+        {
+          "name": "中兴 U950",
+          "img": "img/phone/zte/zte_u950.png",
+          "fiui_ver": "beta 2.30.0",
+          "android_ver": "4.4.4",
+          "author": "小晴",
+          "date": "2015.07.29",
+          "url": "http://bbs.zhiyoo.com/thread-9683537-1-1.html"
+        },
+        {
+          "name": "中兴 U988s",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.33.0",
+          "url": "http://bbs.zhiyoo.com/thread-9734925-1-1.html",
+          "date": "2015.09.01",
+          "img": "img/phone/zte/zte_u988.png",
+          "author": "xxos"
+        },
+        {
+          "name": "中兴 Q505t",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.22.0",
+          "url": "http://bbs.zhiyoo.com/thread-9648900-1-1.html",
+          "date": "2015.05.30",
+          "img": "img/phone/zte/zte_q505t.png",
+          "author": "安凌"
+        },
+        {
+          "name": "中兴 Q802t",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.32.0",
+          "url": "http://bbs.zhiyoo.com/thread-9720013-1-1.html",
+          "date": "2015.08.10",
+          "img": "img/phone/zte/zte_q802t.png",
+          "author": "时间消逝"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "小米",
+    "devices": {
+      "official": [
+        {
+          "name": "小米 2/2s",
+          "img": "img/phone/xiaomi/mi_2a.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587942-1-1.html"
+        },
+        {
+          "name": "小米 3w/3c/4",
+          "img": "img/phone/xiaomi/mi3.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587943-1-1.html"
+        }
+      ],
+      "thirdparty": [
+        {
+          "name": "小米 3 TD版",
+          "img": "img/phone/xiaomi/mi3.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587945-1-1.html"
+        },
+        {
+          "name": "红米 2",
+          "img": "img/phone/xiaomi/hongmi_2.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "author": "FIUI合作开发组",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587956-1-1.html"
+        },
+        {
+          "name": "小米 2A",
+          "img": "img/phone/xiaomi/mi_2a.png",
+          "fiui_ver": "beta 2.33.0",
+          "android_ver": "4.4.4",
+          "author": "XXOS",
+          "date": "2016.04.05",
+          "url": "http://bbs.zhiyoo.com/thread-12475795-1-1.html"
+        },
+        {
+          "name": "小米 1/1s",
+          "img": "img/phone/xiaomi/mi1.png",
+          "fiui_ver": "history 1.0",
+          "android_ver": "4.4.4",
+          "author": "折腾AndroidX",
+          "date": "2016.06.13",
+          "url": "http://bbs.zhiyoo.com/thread-12589459-1-1.html"
+        },
+        {
+          "name": "红米 1s w/c",
+          "img": "img/phone/xiaomi/hongmi1.png",
+          "fiui_ver": "history 1.0",
+          "android_ver": "4.4.4",
+          "author": "小林r7",
+          "date": "2016.06.13",
+          "url": "http://bbs.zhiyoo.com/thread-12589963-1-1.html"
+        },
+        {
+          "name": "红米note 4G TD/W",
+          "img": "img/phone/xiaomi/red_mi_note-4g.png",
+          "fiui_ver": "history 1.0",
+          "android_ver": "4.4.4",
+          "author": "折腾XXL",
+          "date": "2016.06.13",
+          "url": "http://bbs.zhiyoo.com/thread-12589458-1-1.html"
+        },
+        {
+          "name": "小米 pad",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.25.1",
+          "url": "http://bbs.zhiyoo.com/thread-9661373-1-1.html",
+          "date": "2015.06.21",
+          "img": "img/phone/xiaomi/xiaomi_pad.png",
+          "author": "AD1024"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "OnePlus",
+    "devices": {
+      "official": [
+        {
+          "name": "OnePlus One",
+          "img": "img/phone/oneplus/one_plus.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587949-1-1.html"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "LG",
+    "devices": {
+      "official": [
+        {
+          "name": "LG Nexus 4",
+          "img": "img/phone/lg/google_nexus4.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587944-1-1.html"
+        },
+        {
+          "name": "LG Nexus 5",
+          "img": "img/phone/lg/google_nexus5.png",
+          "fiui_ver": "history_1.0",
+          "android_ver": "4.4.4",
+          "date": "2016.06.08",
+          "url": "http://bbs.zhiyoo.com/thread-12587947-1-1.html"
+        }
+      ],
+      "thirdparty": [
+        {
+          "name": "LG G2 D802",
+          "img": "img/phone/lg/lg_g2.png",
+          "fiui_ver": "beta 2.10.0",
+          "android_ver": "4.4.4",
+          "author": "Ry09iu",
+          "date": "2015.02.15",
+          "url": "http://bbs.anzhi.com/thread-9564886-1-1.html"
+        },
+        {
+          "name": "Optimus G(F180S/E975)",
+          "img": "img/phone/lg/lg_optimus_g.png",
+          "fiui_ver": "beta 2.16.0",
+          "android_ver": "4.4.4",
+          "author": "Уヾ梓涵╮",
+          "date": "2015.04.14",
+          "url": "http://bbs.zhiyoo.com/thread-9609804-1-1.html"
+        },
+        {
+          "name": "Optimus Vu 2(F200S/L/K)",
+          "img": "img/phone/lg/lg_f240.png",
+          "fiui_ver": "beta 2.16.0",
+          "android_ver": "4.4.4",
+          "author": "Уヾ梓涵╮",
+          "date": "2015.04.14",
+          "url": "http://bbs.zhiyoo.com/thread-9609803-1-1.html"
+        },
+        {
+          "name": "Optimus G pro F240S/L/K",
+          "img": "img/phone/lg/lg_f240.png",
+          "fiui_ver": "beta 2.16.0",
+          "android_ver": "4.4.4",
+          "author": "Уヾ梓涵╮",
+          "date": "2015.04.14",
+          "url": "http://bbs.zhiyoo.com/thread-9609806-1-1.html"
+        },
+        {
+          "name": "Optimus LTE LU6200/SU640",
+          "img": "img/phone/lg/lg_optimus_lte.png",
+          "fiui_ver": "beta 2.7.0",
+          "android_ver": "4.4.4",
+          "author": "Уヾ梓涵╮",
+          "date": "2015.1.25",
+          "url": "http://bbs.anzhi.com/thread-9541677-1-1.html"
+        },
+        {
+          "name": "LG E980/E988",
+          "img": "img/phone/lg/lg_e980.png",
+          "fiui_ver": "beta 2.16.0",
+          "android_ver": "4.4.4",
+          "author": "Уヾ梓涵╮",
+          "date": "2015.04.14",
+          "url": "http://bbs.zhiyoo.com/thread-9609807-1-1.html"
+        },
+        {
+          "name": "LG G2 F320 S/L/K",
+          "android_ver": "4.4.4",
+          "fiui_ver": "history_1.0",
+          "url": "http://bbs.zhiyoo.com/thread-12587958-1-1.html",
+          "date": "2016.06.08",
+          "img": "img/phone/lg/lg_g2.png",
+          "author": "FIUI合作开发组"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "泛泰",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "泛泰VEGA R3 A850L/S/K",
+          "img": "img/phone/vega/vega_r3_a850.png",
+          "fiui_ver": "beta 2.25.1",
+          "android_ver": "4.4.4",
+          "author": "调皮的胡子",
+          "date": "2015.06.23",
+          "url": "http://bbs.zhiyoo.com/thread-9661561-1-1.html"
+        },
+        {
+          "name": "泛泰VEGA IRON A870L/S/K",
+          "img": "img/phone/vega/vega_iron_a870.png",
+          "fiui_ver": "beta 2.6.0",
+          "android_ver": "4.4.4",
+          "author": "G.A.x.y",
+          "date": "2015.01.18",
+          "url": "http://bbs.anzhi.com/thread-9522914-1-1.html"
+        },
+        {
+          "name": "泛泰VEGA A890L/S/K",
+          "img": "img/phone/vega/vega_a890.png",
+          "fiui_ver": "beta 2.28.0",
+          "android_ver": "4.4.4",
+          "author": "dongshuo101",
+          "date": "2015.07.16",
+          "url": "http://bbs.zhiyoo.com/thread-9675752-1-1.html"
+        },
+        {
+          "name": "泛泰VEGA A900L/S/K",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.28.0",
+          "url": "http://bbs.zhiyoo.com/thread-9675757-1-1.html",
+          "date": "2015.07.16",
+          "img": "img/phone/vega/vega_a900.png",
+          "author": "dongshuo101"
+        },
+        {
+          "name": "泛泰VEGA A910L/S/K",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.28.0",
+          "url": "http://bbs.zhiyoo.com/thread-9675759-1-1.html",
+          "date": "2015.07.16",
+          "img": "img/phone/vega/vega_a910s.png",
+          "author": "dongshuo101"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "OPPO",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "OPPO Find 5",
+          "img": "img/phone/oppo/find_5.png",
+          "fiui_ver": "beta 2.32.0",
+          "android_ver": "4.4.4",
+          "author": "折腾AndroidX",
+          "date": "2015.08.13",
+          "url": "http://bbs.zhiyoo.com/thread-9722433-1-1.html"
+        },
+        {
+          "name": "OPPO Find 7/7a",
+          "img": "img/phone/oppo/find_7.png",
+          "fiui_ver": "beta 2.17.0",
+          "android_ver": "4.4.4",
+          "author": "136fei1",
+          "date": "2015.04.20",
+          "url": "http://bbs.zhiyoo.com/thread-9615334-1-1.html"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "SONY",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "索尼sony L36h",
+          "img": "img/phone/sony/sony_l36h.png",
+          "fiui_ver": "beta 2.16.0",
+          "android_ver": "4.4.4",
+          "author": "Уヾ梓涵╮",
+          "date": "2015.04.14",
+          "url": "http://bbs.zhiyoo.com/thread-9609816-1-1.html"
+        },
+        {
+          "name": "索尼sony Z2",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.15.1",
+          "url": "http://bbs.anzhi.com/thread-9602988-1-1.html",
+          "date": "2015.04.07",
+          "img": "img/phone/sony/sony_z2.png",
+          "author": "染指々流年"
+        },
+        {
+          "name": "索尼sony Z1",
+          "android_ver": "4.4.4",
+          "fiui_ver": "history 1.0",
+          "url": "http://bbs.zhiyoo.com/thread-12589969-1-1.html",
+          "date": "2016.06.13",
+          "img": "img/phone/sony/sony_z1.png",
+          "author": "Remim7"
+        },
+        {
+          "name": "索尼sony LT18i",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.29.0",
+          "url": "http://bbs.zhiyoo.com/thread-9678251-1-1.html",
+          "date": "2015.07.20",
+          "img": "img/phone/sony/sony_LT18i.png",
+          "author": "折腾XXL"
+        },
+        {
+          "name": "索尼sony Z1 Compact",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.33.0",
+          "url": "http://bbs.zhiyoo.com/thread-9743086-1-1.html",
+          "date": "2015.09.13",
+          "img": "img/phone/sony/sony_z1_Compact.png",
+          "author": "Remim7"
+        },
+        {
+          "name": "索尼sony LT22i",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.33.0",
+          "url": "http://bbs.zhiyoo.com/thread-9798703-1-1.html",
+          "date": "2015.10.17",
+          "img": "img/phone/sony/SONY_LT22I.png",
+          "author": "az30653945"
+        },
+        {
+          "name": "索尼sony MT27i",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.32.0",
+          "url": "http://bbs.zhiyoo.com/thread-9720637-1-1.html",
+          "date": "2015.08.11",
+          "img": "img/phone/sony/Sony_mt27.png",
+          "author": "Remim7"
+        },
+        {
+          "name": "索尼sony LT26i",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.32.1",
+          "url": "http://bbs.zhiyoo.com/thread-9725040-1-1.html",
+          "date": "2015.08.17",
+          "img": "img/phone/sony/SONY_LT_26l.png",
+          "author": "Remim7"
+        },
+        {
+          "name": "索尼Sony ST25i",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.32.0",
+          "url": "http://bbs.zhiyoo.com/thread-9720639-1-1.html",
+          "date": "2015.08.11",
+          "img": "img/phone/sony/Sony_St25i.png",
+          "author": "Remim7"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "酷派",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "酷派大神F2(8675-W00)",
+          "img": "img/phone/coolpad/Coolpad_f2.png",
+          "fiui_ver": "beta 2.12.0",
+          "android_ver": "4.4.4",
+          "author": "丨牛肉粉丨",
+          "date": "2015.03.16",
+          "url": "http://bbs.anzhi.com/thread-9587226-1-1.html"
+        },
+        {
+          "name": "酷派大神F1 (8297) ",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.14.0",
+          "url": "http://bbs.anzhi.com/thread-9601885-1-1.html",
+          "date": "2015.04.03",
+          "img": "img/phone/coolpad/Coolpad_f1.png",
+          "author": "幻听风雨"
+        }
+      ]
+    }
+  },
+  {
+    "manufacturer": "其他",
+    "devices": {
+      "thirdparty": [
+        {
+          "name": "天语 touch2",
+          "img": "img/phone/k-touch/k-touch_touch2.png",
+          "fiui_ver": "beta 2.33.0",
+          "android_ver": "4.4.4",
+          "author": "丿丶子兮灬",
+          "date": "2015.09.01",
+          "url": "http://bbs.zhiyoo.com/thread-9734889-1-1.html"
+        },
+        {
+          "name": "Moto Droid Razr M",
+          "android_ver": "4.4.4",
+          "fiui_ver": "beta 2.28.0",
+          "url": "http://bbs.zhiyoo.com/thread-9673329-1-1.html",
+          "date": "2015.07.12",
+          "img": "img/phone/moto/moto_xt907.png",
+          "author": "刷机小白头"
+        }
+      ]
+    }
+  }
+]
