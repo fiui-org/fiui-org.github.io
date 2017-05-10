@@ -2,7 +2,7 @@
 
 fiui.org 网站
 
-[www.fiui.org](www.fiui.org)
+[www.fiui.org](http://www.fiui.org)
 
 ## 设备列表
 
