@@ -176,23 +176,11 @@
     };
 </script>
 
+<script src="/devices/version_list.js"></script>
 <script>
     var app = angular.module('myApp', []);
     app.controller('myCtrl', function($scope, $http) {
-        $scope.jsons = [
-            {
-                "json": "devices/devices_m.json",
-                "title": "FIUI M"
-            },
-            {
-                "json": "devices/devices_l.json",
-                "title": "FIUI L"
-            },
-            {
-                "json": "devices/devices_kk.json",
-                "title": "FIUI KK"
-            }
-        ];
+        $scope.jsons = version_list;
         $scope.json = undefined;
         $scope.manufacturer = undefined;
 
